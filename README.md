@@ -11,10 +11,10 @@ This is a concept repo to implement our architecture as discussed with the pad.
 The following tasks will shall be completed and added to the [CHANGELOG.md](./CHANGELOG.md)
 
 - [x] create repo
-- [ ] create a prototype of a Trac-like system for C++
+- [ ] create a prototype of a [Trac](https://trac.edgewall.org/wiki/TracDev/ComponentArchitecture)-like system for C++
 - [ ] build a plugin loader (plugin) using the above system
 
 ## How to compile
 
 - you should have a reasonably recent version of `GCC>=6` or `Clang>=4`
-- _(build instructions follow here soon)_
+- `c++ Interface.hpp ExtensionPoint.hpp Component.hpp ComponentManager.hpp`
