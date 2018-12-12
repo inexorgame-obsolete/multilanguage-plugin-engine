@@ -8,7 +8,7 @@ All theoretical work for the [engine](https://github.com/orgs/inexorgame/project
 ## Next steps
 
 This is a concept repo to implement our architecture as discussed with the pad.
-The following tasks will shall be completed and added to the [CHANGELOG.md](./CHANGELOG.md)
+The following tasks shall be completed and added to the [CHANGELOG.md](./CHANGELOG.md)
 
 - [x] create repo
 - [ ] create a prototype of a [Trac](https://trac.edgewall.org/wiki/TracDev/ComponentArchitecture)-like system for C++
@@ -17,4 +17,9 @@ The following tasks will shall be completed and added to the [CHANGELOG.md](./CH
 ## How to compile
 
 - you should have a reasonably recent version of `GCC>=6` or `Clang>=4`
-- `c++ Interface.hpp ExtensionPoint.hpp Component.hpp ComponentManager.hpp`
+- you should have a reasonably recent version of `CMake`
+- `mkdir build && cd build && cmake .. && make`
+
+For the sake of simplicity you can also just do this if you feel like it:
+
+- `c++ Exception.hpp Interface.hpp ExtensionPoint.hpp Component.hpp ComponentManager.hpp`
